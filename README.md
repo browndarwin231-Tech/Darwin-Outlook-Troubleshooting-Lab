@@ -4,7 +4,7 @@
 
 This project demonstrates common Microsoft Outlook troubleshooting tasks performed by Help Desk and IT Support professionals on Windows 11.
 
-The lab covers Outlook account verification, Windows Mail settings, Control Panel configuration, DNS connectivity testing, Outlook search functionality, and successful email synchronization.
+The lab covers Outlook account verification, Windows Mail settings, Outlook error verification, email search testing, account status verification, troubleshooting documentation, and successful Outlook functionality.
 
 ---
 
@@ -15,9 +15,9 @@ The lab covers Outlook account verification, Windows Mail settings, Control Pane
 - Email account verification
 - Outlook Settings navigation
 - Windows Mail configuration
-- Control Panel administration
-- DNS troubleshooting
-- Command Prompt networking
+- Outlook error diagnosis
+- Email search
+- Account verification
 - Help Desk troubleshooting methodology
 - Technical documentation
 
@@ -28,7 +28,6 @@ The lab covers Outlook account verification, Windows Mail settings, Control Pane
 - Microsoft Outlook
 - Windows 11
 - Windows Settings
-- Control Panel
 - Command Prompt
 - nslookup
 - DNS
@@ -53,51 +52,51 @@ Verified the configured Gmail account and confirmed the account was successfully
 
 ---
 
-### 3. Windows Mail Settings
+### 3. Outlook Mail Settings
 
-Reviewed Windows Mail settings and verified Outlook configuration options.
+Reviewed Outlook Mail settings and verified account configuration.
 
-![Windows Mail Settings](screenshots/03-windows-settings-mail.png)
-
----
-
-### 4. Control Panel Mail
-
-Opened the Mail configuration utility through Control Panel to access Outlook profile management.
-
-![Control Panel Mail](screenshots/04-control-panel-mail.png)
+![Outlook Mail Settings](screenshots/03-outlook-mail-settings.png)
 
 ---
 
-### 5. DNS Connectivity Test
+### 4. Outlook Error
 
-Verified Outlook-related connectivity by testing DNS resolution and ensuring network communication was functioning correctly.
+Verified Outlook reported an account issue during troubleshooting before corrective actions were completed.
 
-![DNS Test](screenshots/05-dns-test.png)
+![Outlook Error](screenshots/04-outlook-error.png)
 
 ---
 
-### 6. Outlook Search
+### 5. Search Email
 
 Confirmed Outlook search functionality by locating emails using the built-in search feature.
 
-![Outlook Search](screenshots/06-outlook-search.png)
+![Search Email](screenshots/05-search-email.png)
 
 ---
 
-### 7. Outlook DNS Lookup
+### 6. Account Status
 
-Used Command Prompt with `nslookup outlook.office365.com` to verify Microsoft Outlook DNS name resolution.
+Verified the Outlook account was functioning correctly after troubleshooting.
 
-![Outlook DNS Lookup](screenshots/07-nslookup-outlook-office365.png)
+![Account Status](screenshots/06-account-status.png)
 
 ---
 
-### 8. Outlook Inbox Verification
+### 7. Troubleshooting Summary
 
-Confirmed Outlook was functioning correctly after troubleshooting by successfully accessing the Inbox and receiving emails.
+Reviewed the completed troubleshooting process and confirmed all verification steps were successfully completed.
 
-![Outlook Inbox](screenshots/08-outlook-inbox.png)
+![Troubleshooting Summary](screenshots/07-troubleshooting-summary.png)
+
+---
+
+### 8. Project Working
+
+Confirmed Microsoft Outlook was functioning correctly after troubleshooting by successfully accessing the Inbox and receiving emails.
+
+![Project Working](screenshots/08-project-working.png)
 
 ---
 
@@ -105,15 +104,15 @@ Confirmed Outlook was functioning correctly after troubleshooting by successfull
 
 1. Launch Microsoft Outlook.
 2. Verify the configured email account.
-3. Review Windows Mail settings.
-4. Access Outlook Mail configuration through Control Panel.
-5. Test DNS connectivity.
-6. Verify Outlook search functionality.
-7. Validate Outlook DNS resolution using `nslookup`.
-8. Confirm successful Inbox synchronization.
+3. Review Outlook Mail settings.
+4. Diagnose Outlook account issues.
+5. Verify Outlook search functionality.
+6. Confirm account status.
+7. Review troubleshooting results.
+8. Verify successful Inbox synchronization.
 
 ---
 
 ## Outcome
 
-Successfully verified Microsoft Outlook configuration, DNS connectivity, account settings, search functionality, and Inbox synchronization using standard Windows Help Desk troubleshooting procedures.
+Successfully verified Microsoft Outlook configuration, account connectivity, email search functionality, account status, and Inbox synchronization using standard Windows Help Desk troubleshooting procedures.
